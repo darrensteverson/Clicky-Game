@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name":"Goku",
+        "image":"Goku.png"
+    },
+    {
+        "id": 2,
+        "name":"Android 17",
+        "image":"Android17.png"
+    },
+    {
+        "id": 3,
+        "name":"Android 18",
+        "image":"Android18.png"
+    },
+    {
+        "id": 4,
+        "name":"Bardock",
+        "image":"bardock.png"
+    },
+    {
+        "id": 5,
+        "name":"Broly",
+        "image":"Broly.png"
+    },
+    {
+        "id": 6,
+        "name":"Cell",
+        "image":"Cell.png"
+    },
+    {
+        "id": 7,
+        "name":"Gohan",
+        "image":"Gohan.png"
+    },
+    {
+        "id": 8,
+        "name":"Goten",
+        "image":"Goten.png"
+    },
+    {
+        "id": 9,
+        "name":"Krillin",
+        "image":"Krillin.png"
+    },
+    {
+        "id": 10,
+        "name":"Master Roshi",
+        "image":"master-roshi.png"
+    },
+    {
+        "id": 11,
+        "name":"Piccolo",
+        "image":"Piccolo.png"
+    },
+    {
+        "id": 12,
+        "name":"Shenron",
+        "image":"shenron.png"
+    },
+    {
+        "id": 13,
+        "name":"Trunks",
+        "image":"Trunks.png"
+    },
+    {
+        "id": 14,
+        "name":"Vegeta",
+        "image":"Vegeta.png"
+    },
+    {
+        "id": 15,
+        "name":"King Kia",
+        "image":"King_kia.png"
+    }
+]
