@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Header() {
+function Header(props) {
     return (
         <>
             <div className="jumbotron jumbotron-fluid">

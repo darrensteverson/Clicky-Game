@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import img from "../../img.json";
 
 
@@ -10,31 +10,47 @@ class Cards extends Component {
         cardsClicked: []
     }
 
-     startOver = () => {
+// Reset Game
+    startOver = () => {
         this.setState({
-                score: 0,
-                cardsClicked: [],
+            cardsClicked: [],
         });
     };
 
+
+// Shuffle Cards
     shuffle = () => {
 
-        this.state.img.sort(function() {
-            Math.random() - 0.5},
-            
-            this.setState({cards:shuffle}));
+        this.state.img.sort(function () {
+           return Math.random() - 0.5
+        },
 
-            this.state.cardsClicked.push(id);
+        )};
 
-    }
 
+// Click Event
+    userClick = event => {
+        var click= event;
+        var doubleClick = this.state.picked.indexOf(click) > -1;
+
+        if (doubleClick) {
+            alert("You Lost");
+            this.shuffle();
+
+        } else {
+            this.setState({cardsClicked: this.state.cardsClicked.concat(click)});
+            this.shuffle(); 
+        }
+
+    };
+    // Component end
 
 
 
 
 
     render() {
-        return(
+        return (
             <>
 
 

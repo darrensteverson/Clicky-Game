@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Nav() {
+function Nav(props) {
     return (
         <>
 
@@ -11,7 +11,6 @@ function Nav() {
                 </a>
             </nav>
         </>
-            )
-        }
+            )};
         
 export default Nav;
