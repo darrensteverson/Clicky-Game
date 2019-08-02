@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import Header from "./components/Header/header";
 import Container from "./components/Container/container";
-import Nav from "./components/Nav/navbar"
+import Nav from "./components/Nav/navbar";
+import Cards from "./components/Cards/cards"
 import img from "./img.json"
 
 class App extends Component{
@@ -16,6 +17,7 @@ class App extends Component{
       <Nav></Nav>
       <Container>
       <Header></Header>
+      <Cards></Cards>
       </Container>
   
       </>
